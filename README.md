@@ -51,3 +51,7 @@ Requires `local.properties` with `sdk.dir=...` and Garmin Connect Mobile on the 
   to the installed 0.12 and `sdkmanager.sh` / `run.sh` put it on `LD_LIBRARY_PATH`.
 - Ringing uses the alarm stream, so it plays through normal Do Not Disturb but not through "Total silence".
 - Uncaught errors are saved and shown in a dialog the next time the Android app opens (no logcat needed).
+
+## License
+
+MIT – see [LICENSE](LICENSE).
