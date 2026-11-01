@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application entry="FindMyPhoneApp" id="64c27cace820453fa67997834d8fcb2e" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="4.0.0" name="@Strings.AppName" type="watch-app">
+        <iq:products>
+            <iq:product id="fr170"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Communications"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

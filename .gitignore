@@ -1,0 +1,18 @@
+# Garmin SDK manager (downloaded binary + local libjxl shim; machine-specific)
+connectiq-sdk-manager/
+
+# Watch app build output and signing keys (back the key up separately!)
+WatchApp/bin/
+*.der
+*.pem
+developer_key*
+
+# Android
+AndroidApp/build/
+AndroidApp/app/build/
+AndroidApp/.gradle/
+AndroidApp/.kotlin/
+AndroidApp/local.properties
+
+.idea/
+*.iml

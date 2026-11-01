@@ -1,0 +1,17 @@
+[versions]
+agp = "9.5.0"
+kotlin = "2.4.21"
+composeBom = "2026.06.01"
+activityCompose = "1.13.0"
+ciqCompanionAppSdk = "2.4.0"
+
+[libraries]
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+ciq-companion-app-sdk = { module = "com.garmin.connectiq:ciq-companion-app-sdk", version.ref = "ciqCompanionAppSdk" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
